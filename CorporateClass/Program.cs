@@ -33,22 +33,6 @@ namespace CorporateClass
             Console.ReadLine();
             Console.WriteLine("Hello World!");
         }
-        //class Company
-        //{
-        //    public string Name { get; }
-        //    public DateTime CreatedOn { get; }
-        //    public List<Employees> employees { get; set; }
-
-        //    public Company(string name, DateTime createdOn)
-        //    {
-        //        Name = name;
-        //        CreatedOn = createdOn;
-        //    }
-          
-
-           
-
-        //}
     }
 
 
