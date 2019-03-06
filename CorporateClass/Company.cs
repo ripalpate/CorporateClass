@@ -6,9 +6,6 @@ namespace CorporateClass
 {
     class Company
     {
-        /*
-        Some readonly properties
-    */
         public string Name { get; }
         public DateTime CreatedOn { get; }
 
@@ -19,7 +16,7 @@ namespace CorporateClass
             Name = name;
             CreatedOn = createdOn;
         }
-        //  Company Bangazon = new Company();
+       
 
 }
 }
