@@ -10,28 +10,29 @@ namespace CorporateClass
         public DateTime CreatedOn { get; }
 
         // Create a property for holding a list of current employees
-       // public List<Employees> employees { get; set; }
-        List<Employees> employees = new List<Employees>();
+        public List<Employees> Employees { get; set; }
+       
      
         public Company(string name, DateTime createdOn)
         {
             Name = name;
             CreatedOn = createdOn;
+            Employees = new List<Employees>();
         }
 
-        public void addEmployee(Employees newEmployee)
+        public void AddEmployee(Employees newEmployee)
         {
-            employees.Add(newEmployee);
+            Employees.Add(newEmployee);
         }
 
-        public void removeEmployee(Employees fireEmployee)
+        public void RemoveEmployee(Employees fireEmployee)
         {
-            employees.Remove(fireEmployee);
+            Employees.Remove(fireEmployee);
         }
 
         public void ListEmployees()
         {
-            foreach (Employees emp in employees)
+            foreach (Employees emp in Employees)
             {
                 Console.WriteLine($"{emp.Name} started working on {emp.StartDate} as {emp.Title} ");
             }

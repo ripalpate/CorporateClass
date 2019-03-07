@@ -16,11 +16,11 @@ namespace CorporateClass
             Employees sam = new Employees("Sam", "Developer", DateTime.Now);
            
             //add and remove employees from the list
-            Bangazon.addEmployee(mary);
-            Bangazon.addEmployee(john);
-            Bangazon.addEmployee(rachel);
-            Bangazon.addEmployee(sam);
-            Bangazon.removeEmployee(sam);
+            Bangazon.AddEmployee(mary);
+            Bangazon.AddEmployee(john);
+            Bangazon.AddEmployee(rachel);
+            Bangazon.AddEmployee(sam);
+            Bangazon.RemoveEmployee(sam);
 
             Bangazon.ListEmployees();
             
